@@ -1,11 +1,11 @@
-// Opdracht 1
+/*Opdracht 1*/
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
 for (i = 0; i < names.length; i++) {
     console.log(names[i] + "je");
 }
 
-// Opdracht 2
+/*Opdracht 2*/
 
 numbers = [2, 4, 5, 29, 38];
 
