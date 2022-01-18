@@ -1,11 +1,11 @@
-// Opdracht 1
+// Opdracht 1 // 
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
 for (i = 0; i < names.length; i++) {
     console.log(names[i] + "je");
 }
 
-// Opdracht 2
+// Opdracht 2 //
 
 numbers = [2, 4, 5, 29, 38];
 
@@ -18,7 +18,7 @@ for (i = 0; i < numbers.length; i++) {
 }
 console.log(numbers);
 
-// Opdracht 3
+// Opdracht 3 //
 
 const squares = [30, 2, 8, 24, 11];
 let y = 0;
@@ -28,3 +28,4 @@ for (i = 0; i < squares.length; i++) {
 }
 console.log(squares);
 
+/*End of code. Thank you for checking!*/ 
