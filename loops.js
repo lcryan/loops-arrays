@@ -4,6 +4,7 @@ call = ["Hoera!"];
 
 for (let i = 0; i < 3; i++) {
     console.log(call[0]);
+
 }
 
 
