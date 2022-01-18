@@ -1,7 +1,7 @@
 // Opdracht 1
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
-for(i = 0; i < names.length; i++) {
+for (i = 0; i < names.length; i++) {
     console.log(names[i] + "je");
 }
 
@@ -9,11 +9,12 @@ for(i = 0; i < names.length; i++) {
 
 numbers = [2, 4, 5, 29, 38];
 
-for(i = 0; i < numbers.length; i++) {
-    if(numbers[i] % 2 === 0) {
-        numbers[i]= numbers[i] * 2;
+for (i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+        numbers[i] = numbers[i] * 2;
+    } else {
+        numbers[i] = numbers[i] * 3
     }
-    else{numbers[i] = numbers[i] * 3}
 }
 console.log(numbers);
 
@@ -22,7 +23,7 @@ console.log(numbers);
 const squares = [30, 2, 8, 24, 11];
 let y = 0;
 for (i = 0; i < squares.length; i++) {
-    const answer = squares[i] **3
+    const answer = squares[i] ** 3
     squares[i] = `Het volumen van ${squares[i]} is ${answer}`;
 }
 console.log(squares);

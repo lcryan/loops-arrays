@@ -21,25 +21,22 @@ for (let i = 0; i < 4; i++) {
 // Opdracht 3.
 
 for (i = 0; i < 16; i++) {
-    if(i % 2 === 0) {
+    if (i % 2 === 0) {
         console.log(i + " is even");
-    }
-    else {
-        console.log (i + " is oneven");
+    } else {
+        console.log(i + " is oneven");
     }
 }
 
 // Opdracht 4.
 
-for (i = 0; i <= 9; i++){
+for (i = 0; i <= 9; i++) {
 
-    if(i <= 2){
+    if (i <= 2) {
         console.log("" + i);
-    }
-    else if(i >= 3 && i < 6){
+    } else if (i >= 3 && i < 6) {
         console.log(">" + i);
-    }
-    else {
+    } else {
         console.log(">>" + i);
     }
 }
