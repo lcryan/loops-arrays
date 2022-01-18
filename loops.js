@@ -1,4 +1,4 @@
-/* Opdracht 1  */
+// Opdracht 1  //
 
 call = ["Hoera!"];
 
@@ -8,7 +8,7 @@ for (let i = 0; i < 3; i++) {
 }
 
 
-// Opdracht 2.
+// Opdracht 2 //
 
 const word1 = ['loop...'];
 
@@ -19,7 +19,7 @@ for (let i = 0; i < 4; i++) {
 }
 
 
-// Opdracht 3.
+// Opdracht 3 //
 
 for (i = 0; i < 16; i++) {
     if (i % 2 === 0) {
@@ -29,7 +29,7 @@ for (i = 0; i < 16; i++) {
     }
 }
 
-// Opdracht 4.
+// Opdracht 4 //
 
 for (i = 0; i <= 9; i++) {
 
@@ -41,3 +41,5 @@ for (i = 0; i <= 9; i++) {
         console.log(">>" + i);
     }
 }
+
+/* Thank you for checking my code! End of code here */
